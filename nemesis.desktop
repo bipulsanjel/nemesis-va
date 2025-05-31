@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Nemesis
+Exec=/home/bipul-sanjel/NemesisVoice/nemesis-launch.sh
+X-GNOME-Autostart-enabled=true
+Terminal=false

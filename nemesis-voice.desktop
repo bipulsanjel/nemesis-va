@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Nemesis Voice Shell
+Exec=/usr/bin/python3 /home/bipul-sanjel/NemesisVoice/voice-shell.py
+Icon=utilities-terminal
+Comment=Voice-controlled assistant
+X-GNOME-Autostart-enabled=true
+Terminal=false
