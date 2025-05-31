@@ -1,1 +1,4 @@
-model
+*.zip
+model/
+*.wav
+__pycache__/
