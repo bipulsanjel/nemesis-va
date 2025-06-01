@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/bipul-sanjel/.config/nemesis/notification-watcher.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Nemesis Notification Watcher
+Comment=Reads out desktop notifications using TTS

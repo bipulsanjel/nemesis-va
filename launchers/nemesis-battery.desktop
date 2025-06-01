@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/bipul-sanjel/.config/nemesis/battery-watcher.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Nemesis Battery Watcher
+Comment=Keeps you updated with battery power status
