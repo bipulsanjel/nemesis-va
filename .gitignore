@@ -2,3 +2,7 @@
 model/
 *.wav
 __pycache__/
+vosk-model-small-en-us-0.15.zip
+model/
+vosk-model-small-en-us-0.15.zip
+model/
