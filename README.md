@@ -1,39 +1,51 @@
-# Nemesis Voice Assistant 
+# Nemesis Voice Assistant
 
-Nemesis is a Linux-based offline voice assistant that performs system-level actions using natural voice commands.
+**Nemesis** is a fully offline, Linux-based voice assistant designed for ultimate system control — no cloud, no delays, just raw voice power.
 
-# Features
+> “Good morning, commander. Systems are operational.” 
+> — Nemesis, every time you boot up.
 
-- Voice-controlled terminal commands
+---
+
+## Features
+
+- Voice-controlled system commands
 - Personalized system greetings
 - Battery and power monitoring
-- Desktop notification reader
-- Offline speech recognition (using Vosk)
-- Auto-launch on startup with `.desktop` files
+- Notification reading out loud
+- Offline speech recognition (Vosk)
+- Autostarts with `.desktop` launchers
 
-# Voice Commands
+---
 
-- "Open terminal"
-- "Take screenshot"
-- "Increase volume"
-- "Check battery"
-- "Say hello"
-- "Turn off Wi-Fi"
-- "Lock system"
-- More...
+## Supported Voice Commands
 
-#How to Run
+- `Open terminal`
+- `Take screenshot`
+- `Increase volume` / `Decrease volume`
+- `Mute system` / `Unmute`
+- `Turn off Wi-Fi` / `Enable Wi-Fi`
+- `Check battery`
+- `Say hello`
+- `Lock system`
+- `Open code`
+- `How do you feel?`
+- *(Add your own in `voice-shell.py`)*
 
-* Clone the repo:
-```bash```
-git clone https://github.com/yourusername/nemesis-va.git
+---
+
+## How to Run
+
+```bash
+# 1. Clone the repo
+git clone https://github.com/bipulsanjel/nemesis-va.git
 cd nemesis-va
 
-# Install dependencies
+# 2. Install Python dependencies
 pip install -r requirements.txt
 
-# Download the Vosk model and place it in a model/ folder
+# 3. Download a Vosk speech model (e.g., vosk-model-small-en-us)
+#    and place it inside a folder named `model/`
 
-# Run the assistant
+# 4. Run Nemesis
 python3 voice-shell.py
- 
