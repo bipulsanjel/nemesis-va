@@ -1,0 +1,3 @@
+vosk
+pyttsx3
+pyaudio
