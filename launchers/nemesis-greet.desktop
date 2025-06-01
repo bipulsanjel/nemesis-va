@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Exec=/home/bipul-sanjel/.config/nemesis/greet.sh
-Hidden=false
-NoDisplay=false
-X-GNOME-Autostart-enabled=true
-Name=Nemesis Greeting
-Comment=Cool Iron-Man style voice greeting

@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Exec=/home/bipul-sanjel/.config/nemesis/battery-full-watcher.sh
-Hidden=false
-NoDisplay=false
-X-GNOME-Autostart-enabled=true
-Name=Battery Full Watcher
-Comment=Speaks when battery is fully charged

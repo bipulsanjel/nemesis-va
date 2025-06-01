@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Exec=/home/bipul-sanjel/.config/nemesis/power-watcher.sh
-Hidden=false
-NoDisplay=false
-X-GNOME-Autostart-enabled=true
-Name=Nemesis Power Watcher
